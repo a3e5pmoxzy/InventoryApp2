@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/title_cat_inventory_assets_product_overview" />
+
+        <LinearLayout
+            android:layout_width="@dimen/linear_layout_widthof0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/linear_layout_padding_leftOf4dp">
+
+            <EditText
+                android:id="@+id/edit_inventory_assets_product_name"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_inventory_assets_product_name"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_currency_units"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/title_cat_inventory_assets_product_price" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/relative_layout_widthof0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="@dimen/relative_layout_padding_left">
+
+            <EditText
+                android:id="@+id/edit_inventory_assets_product_price"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_inventory_assets_product_price"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/label_currency_units"
+                style="@style/EditorUnitsStyle"
+                android:text="@string/unit_inventory_currency_default" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_quantity_units"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/title_cat_inventory_assets_product_quantity" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/relative_layout_widthof0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="@dimen/relative_layout_padding_left">
+
+            <EditText
+                android:id="@+id/edit_inventory_assets_product_quantity"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_inventory_assets_product_quantity"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/label_pcs_units"
+                style="@style/EditorUnitsStyle"
+                android:text="@string/unit_inventory_pcs" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/linear_layout_padding">
+
+        <ImageView
+            android:id="@+id/btn_cta_inventory_assets_plus_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/baseline_exposure_plus_1_black_24" />
+
+        <ImageView
+            android:id="@+id/btn_cta_inventory_assets_minus_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/baseline_exposure_neg_1_black_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/title_cat_inventory_logistics_overview" />
+
+        <LinearLayout
+            android:layout_width="@dimen/linear_layout_widthof0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/linear_layout_padding_leftOf4dp">
+
+            <EditText
+                android:id="@+id/edit_inventory_logistics_supplier_name"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_inventory_logistics_supplier_name"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/edit_inventory_logistics_supplier_phone"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_inventory_logistics_supplier_phone"
+                android:inputType="textCapWords" />
+
+            <ImageView
+                android:id="@+id/btn_cta_inventory_logistics_supplier_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/baseline_phone_black_24" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

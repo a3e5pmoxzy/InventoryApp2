@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D3B3E</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#DBC068</color>
+    <color name="editorColorPrimary">#2D3640</color>
+    <color name="editorColorPrimaryDark">#394450</color>
+    <color name="bg_linear_layout1">#FFFFFF</color>
+    <color name="bg_linear_layout2">#3D3B3E</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="txt_item_color1">#FFC730</color>
+    <color name="txt_item_color2">#666666</color>
+    <color name="txt_item_color3">#000000</color>
+    <color name="txt_item_color4">#2B3D4D</color>
+    <color name="txt_item_color5">#45617B</color>
+    <color name="txt_item_color6">#AEB6BD</color>
+    <color name="txt_item_color7">#2FCCEE</color>
+    <color name="txt_item_color8">#A2AAB0</color>
+    <color name="bg_tbl_row1">#FFFFFF</color>
+    <color name="bg_circle_inventory_assets_product_quantity1">#4A7BA7</color>
+    <color name="bg_circle_inventory_assets_product_quantity2">#04B4B3</color>
+    <color name="bg_circle_inventory_assets_product_quantity3">#10CAC9</color>
+    <color name="bg_circle_inventory_assets_product_quantity4">#F5A623</color>
+    <color name="bg_circle_inventory_assets_product_quantity5">#FF7D50</color>
+    <color name="bg_circle_inventory_assets_product_quantity6">#FC6644</color>
+    <color name="bg_circle_inventory_assets_product_quantity7">#E75F40</color>
+    <color name="bg_circle_inventory_assets_product_quantity8">#E13A20</color>
+</resources>

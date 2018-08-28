@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="false"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/label_inventory_assets_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/label_cat_inventory_assets_product_name"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/txt_item_color4" />
+
+    <TextView
+        android:id="@+id/edit_inventory_assets_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_inventory_assets_product_name"
+        android:layout_centerHorizontal="false"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/txt_item_color5" />
+
+    <TextView
+        android:id="@+id/label_inventory_assets_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_inventory_assets_product_name"
+        android:layout_centerHorizontal="false"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/label_cat_inventory_assets_product_price"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/txt_item_color4" />
+
+    <TextView
+        android:id="@+id/edit_inventory_assets_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_inventory_assets_product_price"
+        android:layout_centerHorizontal="false"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/txt_item_color6" />
+
+    <TextView
+        android:id="@+id/label_inventory_assets_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_inventory_assets_product_price"
+        android:layout_centerHorizontal="false"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/label_cat_inventory_assets_product_quantity"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/txt_item_color4" />
+
+    <TextView
+        android:id="@+id/edit_inventory_assets_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_inventory_assets_product_quantity"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/txt_item_color6" />
+
+    <TextView
+        android:id="@+id/btn_cta_buy_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_inventory_assets_product_quantity"
+        android:clickable="true"
+        android:text="@string/btn_inventory_assets_buy_item"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/txt_item_color7" />
+
+</RelativeLayout>

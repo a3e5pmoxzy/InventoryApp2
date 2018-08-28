@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_inventory_stockstorage_options">
+        <item>@string/inventory_status_unknown</item>
+        <item>@string/inventory_status_stock_0</item>
+        <item>@string/inventory_status_stock_full</item>
+        <item>@string/inventory_status_stock_in_stock</item>
+    </string-array>
+    <string-array name="array_inventory_currency_options">
+        <item>@string/inventory_currency_default</item>
+        <item>@string/inventory_curreny_option1</item>
+        <item>@string/inventory_curreny_option2</item>
+        <item>@string/inventory_curreny_option3</item>
+    </string-array>
+    <string-array name="array_inventory_unit_stockstorage_options">
+        <item>@string/inventory_unit_stockstorage_default</item>
+        <item>@string/inventory_unit_stockstorage_option1</item>
+    </string-array>
+</resources>
